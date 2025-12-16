@@ -17,6 +17,7 @@ import br.com.ecommerce.api.bd_ecommerce.repository.ProdutoRepository;
 public class PedidoService {
   @Autowired
   private PedidoRepository pedidoRepository;
+  @Autowired
   private ProdutoRepository produtoRepository;
 
   public Pedido criarPedido(Pedido pedido) {
@@ -24,7 +25,7 @@ public class PedidoService {
   List<Long> produtoIds = pedido.getProdutos().stream().map(Produto::getId).collect(Collectors.toList());//extraio os ids que foram passados
   List<Produto> produtos = produtoRepository.findAllById(produtoIds); // caço os produtos de cada id da lista
 
-  for(Produto p : pedido.getProdutos()){
+  for(Produto p : produtos){
     valorTotal+=p.getPreco(); 
   }
 
