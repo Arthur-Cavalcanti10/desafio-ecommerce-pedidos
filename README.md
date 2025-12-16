@@ -12,13 +12,12 @@ Projeto desenvolvido como desafio técnico para construir uma **API REST de e-co
 | Java | 25 |
 | Spring Boot | 4.0.0 |
 | Maven |  |
-| (Adicionar outras conforme seu projeto) | |
 
 ---
 
 ## 📁 Estrutura do Projeto
 
-```text
+
 .
 ├── .mvn/
 ├── src/
