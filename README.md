@@ -1,2 +1,33 @@
-# desafio-ecommerce-pedidos
-desafio de um ecommerce de pedidos em api rest
+# 🛒 Desafio E-commerce de Pedidos
+
+📌 **Descrição**  
+Projeto desenvolvido como desafio técnico para construir uma **API REST de e-commerce de pedidos** em Java. A API permite gerenciar pedidos em um sistema simplificado de e-commerce.
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+| Tecnologia | Versão |
+|------------|--------|
+| Java |  |
+| Spring Boot |  |
+| Maven |  |
+| (Adicionar outras conforme seu projeto) | |
+
+---
+
+## 📁 Estrutura do Projeto
+
+```text
+.
+├── .mvn/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   └── resources/
+│   └── test/
+├── .gitignore
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
+└── README.md
